@@ -2,6 +2,7 @@ import requests
 import json
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from email.utils import format_datetime
 from icalendar import Calendar, Event
@@ -109,6 +110,10 @@ for event in events:
 
     dt = datetime.fromisoformat(
         start.replace("Z", "+00:00")
+    )
+
+    dt = dt.astimezone(
+        ZoneInfo("America/New_York")
     )
 
     cal_event.add(
