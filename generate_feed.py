@@ -104,6 +104,12 @@ for event in events:
 
     cal_event = Event()
 
+    start = event["scheduling"]["config"]["startDate"]
+
+    dt = datetime.fromisoformat(
+        start.replace("Z", "+00:00")
+    )
+
     cal_event.add(
         "summary",
         event["title"]
@@ -114,24 +120,22 @@ for event in events:
         event.get("description", "")
     )
 
-    start = event["scheduling"]["config"]["startDate"]
-
-    dt = datetime.fromisoformat(
-        start.replace("Z", "+00:00")
-    )
-
     cal_event.add(
         "dtstart",
         dt
     )
 
     cal_event.add(
+        "dtstamp",
+        datetime.now()
+    )
+
+    cal_event.add(
         "uid",
-        event["slug"]
+        event["slug"] + "@newhampshireunderground.org"
     )
 
     cal.add_component(cal_event)
-
 
 with open("calendar.ics", "wb") as f:
     f.write(cal.to_ical())
