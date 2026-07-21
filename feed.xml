@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>New Hampshire Underground Events</title>
+    <link>https://www.newhampshireunderground.org/</link>
+    <description>Upcoming events at New Hampshire Underground</description>
+    <language>en-us</language>
+
+    <item>
+      <title>RSS Feed Test</title>
+      <description>The New Hampshire Underground RSS feed is online.</description>
+      <link>https://www.newhampshireunderground.org/</link>
+      <guid>nh-underground-test-001</guid>
+    </item>
+
+  </channel>
+</rss>
