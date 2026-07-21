@@ -36,6 +36,10 @@ events = (
     ["events"]
 )
 
+events = sorted(
+    events,
+    key=lambda x: x["scheduling"]["config"]["startDate"]
+)
 
 rss = ET.Element("rss", version="2.0")
 channel = ET.SubElement(rss, "channel")
