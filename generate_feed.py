@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from bs4 import BeautifulSoup
 from email.utils import format_datetime
+from icalendar import Calendar, Event
 
 
 URL = "https://www.newhampshireunderground.org/showsandevents"
