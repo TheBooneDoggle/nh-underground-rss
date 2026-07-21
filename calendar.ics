@@ -5,7 +5,8 @@ X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
 SUMMARY:Doom Metal with Dead Harrison and Friends
 DTSTART;TZID=America/New_York:20260725T190000
-DTSTAMP:20260721T021402Z
+DTEND;TZID=America/New_York:20260725T230000
+DTSTAMP:20260721T021804Z
 UID:doom-metal-with-dead-harrison-and-friends@newhampshireunderground.org
 DESCRIPTION:Dead Harrison\, Fate of the Damn'd\, Psycho Prophet\, and more
  !
@@ -13,28 +14,32 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Psychedelic Jam Matinee
 DTSTART;TZID=America/New_York:20260726T190000
-DTSTAMP:20260721T021402Z
+DTEND;TZID=America/New_York:20260726T230000
+DTSTAMP:20260721T021804Z
 UID:psychedelic-jam-matinee@newhampshireunderground.org
 DESCRIPTION:Eljer P Sloan\, Tumbletoads\, and more!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pop Punk & Alt Rock Riot
 DTSTART;TZID=America/New_York:20260801T190000
-DTSTAMP:20260721T021402Z
+DTEND;TZID=America/New_York:20260801T230000
+DTSTAMP:20260721T021804Z
 UID:pop-punk-alt-rock-riot@newhampshireunderground.org
 DESCRIPTION:Oziem\, Terminal Stereo\, The Faith Ann Band\, Vices\, Inc.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Symphonic & Melodic Death  Metal
 DTSTART;TZID=America/New_York:20260807T190000
-DTSTAMP:20260721T021402Z
+DTEND;TZID=America/New_York:20260807T230000
+DTSTAMP:20260721T021804Z
 UID:symphonic-melodic-death-metal-1@newhampshireunderground.org
 DESCRIPTION:Astra Mortis\, Annihilus Mundi\, Mantle and Perennial Quest
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dead Robots Don't Cry
 DTSTART;TZID=America/New_York:20260808T190000
-DTSTAMP:20260721T021402Z
+DTEND;TZID=America/New_York:20260808T230000
+DTSTAMP:20260721T021804Z
 UID:dead-robots-dont-cry@newhampshireunderground.org
 DESCRIPTION:Cryin Caleb\, Replaced by Robots\, and Gossip Collar: Goth\, P
  ost-punk and Death Rock vibes
