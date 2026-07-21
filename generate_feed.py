@@ -92,3 +92,48 @@ tree.write(
 )
 
 print(f"Generated feed with {len(events)} events")
+
+# Generate iCalendar file
+
+cal = Calendar()
+
+cal.add("prodid", "-//New Hampshire Underground Shows//Calendar//EN")
+cal.add("version", "2.0")
+
+for event in events:
+
+    cal_event = Event()
+
+    cal_event.add(
+        "summary",
+        event["title"]
+    )
+
+    cal_event.add(
+        "description",
+        event.get("description", "")
+    )
+
+    start = event["scheduling"]["config"]["startDate"]
+
+    dt = datetime.fromisoformat(
+        start.replace("Z", "+00:00")
+    )
+
+    cal_event.add(
+        "dtstart",
+        dt
+    )
+
+    cal_event.add(
+        "uid",
+        event["slug"]
+    )
+
+    cal.add_component(cal_event)
+
+
+with open("calendar.ics", "wb") as f:
+    f.write(cal.to_ical())
+
+print(f"Generated calendar with {len(events)} events")
