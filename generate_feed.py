@@ -1,7 +1,7 @@
 import requests
 import json
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from email.utils import format_datetime
@@ -131,6 +131,11 @@ for event in events:
         dt
     )
 
+    cal_event.add(
+        "dtend",
+        dt + timedelta(hours=4)
+    )
+    
     cal_event.add(
         "dtstamp",
         datetime.now()
