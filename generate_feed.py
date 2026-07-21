@@ -99,6 +99,7 @@ cal = Calendar()
 
 cal.add("prodid", "-//New Hampshire Underground Shows//Calendar//EN")
 cal.add("version", "2.0")
+cal.add("X-WR-CALNAME", "Terminus Underground Events")
 
 for event in events:
 
