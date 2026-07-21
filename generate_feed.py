@@ -1,48 +1,87 @@
-from datetime import datetime, timezone
+import requests
+import json
+import xml.etree.ElementTree as ET
+from datetime import datetime
+from bs4 import BeautifulSoup
+from email.utils import format_datetime
 
-# Feed settings
-FEED_TITLE = "My RSS Feed"
-FEED_LINK = "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/feed.xml"
-FEED_DESCRIPTION = "Automatically generated RSS feed"
 
-# Example feed item
-items = [
-    {
-        "title": "Feed Generator Test",
-        "description": "This RSS feed is now generated automatically using GitHub Actions.",
-        "link": FEED_LINK,
+URL = "https://www.newhampshireunderground.org/showsandevents"
+
+response = requests.get(
+    URL,
+    headers={
+        "User-Agent": "Mozilla/5.0 RSS Feed Generator"
     }
-]
+)
+response.raise_for_status()
 
-# Build RSS items
-rss_items = ""
+soup = BeautifulSoup(response.text, "html.parser")
 
-for item in items:
-    rss_items += f"""
-    <item>
-        <title>{item['title']}</title>
-        <description>{item['description']}</description>
-        <link>{item['link']}</link>
-        <pubDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")}</pubDate>
-    </item>
-    """
+warmup = soup.find(
+    "script",
+    {"id": "wix-warmup-data"}
+)
 
-# Build RSS feed
-feed_content = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
+if not warmup:
+    raise Exception("Could not find Wix warmup data")
 
-<title>{FEED_TITLE}</title>
-<link>{FEED_LINK}</link>
-<description>{FEED_DESCRIPTION}</description>
+data = json.loads(warmup.string)
 
-{rss_items}
+events = (
+    data["appsWarmupData"]
+    ["140603ad-af8d-84a5-2c80-a0f60cb47351"]
+    ["widgetcomp-j9ny0yyr"]
+    ["events"]
+    ["events"]
+)
 
-</channel>
-</rss>
-"""
 
-with open("feed.xml", "w", encoding="utf-8") as file:
-    file.write(feed_content)
+rss = ET.Element("rss", version="2.0")
+channel = ET.SubElement(rss, "channel")
 
-print("feed.xml generated successfully")
+ET.SubElement(channel, "title").text = (
+    "New Hampshire Underground Shows"
+)
+
+ET.SubElement(channel, "link").text = URL
+
+ET.SubElement(channel, "description").text = (
+    "Upcoming shows and events"
+)
+
+
+for event in events:
+
+    item = ET.SubElement(channel, "item")
+
+    ET.SubElement(item, "title").text = event["title"]
+
+    ET.SubElement(item, "description").text = (
+        event.get("description", "")
+    )
+
+    start = event["scheduling"]["config"]["startDate"]
+
+    dt = datetime.fromisoformat(
+        start.replace("Z", "+00:00")
+    )
+
+    ET.SubElement(item, "pubDate").text = (
+        format_datetime(dt)
+    )
+
+    ET.SubElement(item, "link").text = (
+        URL + "/" + event["slug"]
+    )
+
+
+tree = ET.ElementTree(rss)
+
+tree.write(
+    "feed.xml",
+    encoding="utf-8",
+    xml_declaration=True
+)
+
+print(f"Generated feed with {len(events)} events")
