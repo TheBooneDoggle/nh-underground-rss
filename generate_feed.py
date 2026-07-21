@@ -75,6 +75,8 @@ for event in events:
         URL + "/" + event["slug"]
     )
 
+    ET.SubElement(item, "guid").text = event["slug"]
+
 
 tree = ET.ElementTree(rss)
 
