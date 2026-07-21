@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//New Hampshire Underground Shows//Calendar//EN
+BEGIN:VEVENT
+SUMMARY:Doom Metal with Dead Harrison and Friends
+DTSTART:20260725T230000Z
+UID:doom-metal-with-dead-harrison-and-friends
+DESCRIPTION:Dead Harrison\, Fate of the Damn'd\, Psycho Prophet\, and more
+ !
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Psychedelic Jam Matinee
+DTSTART:20260726T230000Z
+UID:psychedelic-jam-matinee
+DESCRIPTION:Eljer P Sloan\, Tumbletoads\, and more!
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pop Punk & Alt Rock Riot
+DTSTART:20260801T230000Z
+UID:pop-punk-alt-rock-riot
+DESCRIPTION:Oziem\, Terminal Stereo\, The Faith Ann Band\, Vices\, Inc.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Symphonic & Melodic Death  Metal
+DTSTART:20260807T230000Z
+UID:symphonic-melodic-death-metal-1
+DESCRIPTION:Astra Mortis\, Annihilus Mundi\, Mantle and Perennial Quest
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dead Robots Don't Cry
+DTSTART:20260808T230000Z
+UID:dead-robots-dont-cry
+DESCRIPTION:Cryin Caleb\, Replaced by Robots\, and Gossip Collar: Goth\, P
+ ost-punk and Death Rock vibes
+END:VEVENT
+END:VCALENDAR
