@@ -3,35 +3,34 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:Doom Metal with Dead Harrison and Friends
+SUMMARY:MONOLITH OF DOOM
 DTSTART;TZID=America/New_York:20260725T190000
 DTEND;TZID=America/New_York:20260725T230000
-DTSTAMP:20260723T121146Z
-UID:doom-metal-with-dead-harrison-and-friends@newhampshireunderground.org
-DESCRIPTION:Dead Harrison\, Fate of the Damn'd\, Psycho Prophet\, and more
- !
+DTSTAMP:20260724T115810Z
+UID:monolith-of-doom@newhampshireunderground.org
+DESCRIPTION:Dead Harrison\, Fate of the Damn'd\, and Psycho Prophet
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Psychedelic Jam Matinee
-DTSTART;TZID=America/New_York:20260726T190000
-DTEND;TZID=America/New_York:20260726T230000
-DTSTAMP:20260723T121146Z
+DTSTART;TZID=America/New_York:20260726T140000
+DTEND;TZID=America/New_York:20260726T180000
+DTSTAMP:20260724T115810Z
 UID:psychedelic-jam-matinee@newhampshireunderground.org
-DESCRIPTION:Eljer P Sloan\, Tumbletoads\, and more!
+DESCRIPTION:Eljer P Sloan\, The Form\, and Tumbletoads
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pop Punk & Alt Rock Riot
+SUMMARY:Pop Punk Indie Rock Riot
 DTSTART;TZID=America/New_York:20260801T190000
 DTEND;TZID=America/New_York:20260801T230000
-DTSTAMP:20260723T121146Z
-UID:pop-punk-alt-rock-riot@newhampshireunderground.org
-DESCRIPTION:Oziem\, Terminal Stereo\, The Faith Ann Band\, Vices\, Inc.
+DTSTAMP:20260724T115810Z
+UID:pop-punk-indie-rock-riot@newhampshireunderground.org
+DESCRIPTION:Oziem\, The Faith Ann Band\, Vices\, Inc.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Symphonic & Melodic Death  Metal
 DTSTART;TZID=America/New_York:20260807T190000
 DTEND;TZID=America/New_York:20260807T230000
-DTSTAMP:20260723T121146Z
+DTSTAMP:20260724T115810Z
 UID:symphonic-melodic-death-metal-1@newhampshireunderground.org
 DESCRIPTION:Astra Mortis\, Annihilus Mundi\, Mantle and Perennial Quest
 END:VEVENT
@@ -39,9 +38,35 @@ BEGIN:VEVENT
 SUMMARY:Dead Robots Don't Cry
 DTSTART;TZID=America/New_York:20260808T190000
 DTEND;TZID=America/New_York:20260808T230000
-DTSTAMP:20260723T121146Z
+DTSTAMP:20260724T115810Z
 UID:dead-robots-dont-cry@newhampshireunderground.org
 DESCRIPTION:Cryin Caleb\, Replaced by Robots\, and Gossip Collar: Goth\, P
  ost-punk and Death Rock vibes
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mixed Metals
+DTSTART;TZID=America/New_York:20260815T190000
+DTEND;TZID=America/New_York:20260815T230000
+DTSTAMP:20260724T115810Z
+UID:mixed-metals@newhampshireunderground.org
+DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Succumb & Become
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Mr. Z Tour
+DTSTART;TZID=America/New_York:20260816T180000
+DTEND;TZID=America/New_York:20260816T220000
+DTSTAMP:20260724T115810Z
+UID:the-mr-z-tour@newhampshireunderground.org
+DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, LEY\, 6 
+ MINDS COMBINED\, BLUNTSWORTH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shoegaze Night
+DTSTART;TZID=America/New_York:20260822T190000
+DTEND;TZID=America/New_York:20260822T230000
+DTSTAMP:20260724T115810Z
+UID:shoegaze-night@newhampshireunderground.org
+DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
+ ons
 END:VEVENT
 END:VCALENDAR
