@@ -3,18 +3,10 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:Pop Punk Indie Rock Riot
-DTSTART;TZID=America/New_York:20260801T190000
-DTEND;TZID=America/New_York:20260801T230000
-DTSTAMP:20260801T110720Z
-UID:pop-punk-indie-rock-riot@newhampshireunderground.org
-DESCRIPTION:Oziem\, The Faith Ann Band\, Vices\, Inc.
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Monday Metal Madness
 DTSTART;TZID=America/New_York:20260803T180000
 DTEND;TZID=America/New_York:20260803T220000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:monday-metal-madness@newhampshireunderground.org
 DESCRIPTION:Metal/Punk/Goth Karaoke\, Open Mic\, Spin Your Own Mix\, "Do Y
  ou Think You Can Scream!?" Contest
@@ -23,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Music Listening Party
 DTSTART;TZID=America/New_York:20260804T180000
 DTEND;TZID=America/New_York:20260804T220000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:music-listening-party@newhampshireunderground.org
 DESCRIPTION:Listen to the latest new music coming to Terminus Underground!
   Drink Coffee\, Kava\, or BYOB 21+
@@ -32,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:Symphonic & Melodic Death  Metal
 DTSTART;TZID=America/New_York:20260807T190000
 DTEND;TZID=America/New_York:20260807T230000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:symphonic-melodic-death-metal-1@newhampshireunderground.org
 DESCRIPTION:Astra Mortis\, Annihilus Mundi\, Mantle and Perennial Quest
 END:VEVENT
@@ -40,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Dead Robots Don't Cry
 DTSTART;TZID=America/New_York:20260808T190000
 DTEND;TZID=America/New_York:20260808T230000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:dead-robots-dont-cry@newhampshireunderground.org
 DESCRIPTION:Cryin Caleb\, Replaced by Robots\, and Gossip Collar: Goth\, P
  ost-punk and Death Rock vibes
@@ -49,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:Mixed Metals
 DTSTART;TZID=America/New_York:20260815T190000
 DTEND;TZID=America/New_York:20260815T230000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:mixed-metals@newhampshireunderground.org
 DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Succumb & Become
 END:VEVENT
@@ -57,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:The Mr. Z Tour
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T220000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:the-mr-z-tour@newhampshireunderground.org
 DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, LEY\, 6 
  MINDS COMBINED\, BLUNTSWORTH
@@ -66,7 +58,7 @@ BEGIN:VEVENT
 SUMMARY:Shoegaze Night
 DTSTART;TZID=America/New_York:20260822T190000
 DTEND;TZID=America/New_York:20260822T230000
-DTSTAMP:20260801T110720Z
+DTSTAMP:20260802T110717Z
 UID:shoegaze-night@newhampshireunderground.org
 DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
  ons
