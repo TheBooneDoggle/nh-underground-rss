@@ -3,19 +3,10 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:Dead Robots Don't Cry
-DTSTART;TZID=America/New_York:20260808T190000
-DTEND;TZID=America/New_York:20260808T230000
-DTSTAMP:20260808T080611Z
-UID:dead-robots-dont-cry@newhampshireunderground.org
-DESCRIPTION:Cryin Caleb\, Replaced by Robots\, and Gossip Collar: Goth\, P
- ost-punk and Death Rock vibes
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Music Listening Party
 DTSTART;TZID=America/New_York:20260811T190000
 DTEND;TZID=America/New_York:20260811T230000
-DTSTAMP:20260808T080611Z
+DTSTAMP:20260809T080933Z
 UID:music-listening-party@newhampshireunderground.org
 DESCRIPTION:Listen to the latest new music coming to Terminus Underground!
   Drink Coffee\, Kava\, or BYOB 21+
@@ -24,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Mixed Metal Night
 DTSTART;TZID=America/New_York:20260815T190000
 DTEND;TZID=America/New_York:20260815T230000
-DTSTAMP:20260808T080611Z
+DTSTAMP:20260809T080933Z
 UID:mixed-metal-night@newhampshireunderground.org
 DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Trading Tombstones
 END:VEVENT
@@ -32,7 +23,7 @@ BEGIN:VEVENT
 SUMMARY:The Mr. Z Tour
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T220000
-DTSTAMP:20260808T080611Z
+DTSTAMP:20260809T080933Z
 UID:the-mr-z-tour@newhampshireunderground.org
 DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, LEY\, 6 
  MINDS COMBINED\, BLUNTSWORTH
@@ -41,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Shoegaze Night
 DTSTART;TZID=America/New_York:20260822T190000
 DTEND;TZID=America/New_York:20260822T230000
-DTSTAMP:20260808T080611Z
+DTSTAMP:20260809T080933Z
 UID:shoegaze-night@newhampshireunderground.org
 DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
  ons
