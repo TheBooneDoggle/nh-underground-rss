@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Music Listening Party
 DTSTART;TZID=America/New_York:20260811T190000
 DTEND;TZID=America/New_York:20260811T230000
-DTSTAMP:20260810T104006Z
+DTSTAMP:20260811T093425Z
 UID:music-listening-party@newhampshireunderground.org
 DESCRIPTION:Listen to the latest new music coming to Terminus Underground!
   Drink Coffee\, Kava\, or BYOB 21+
@@ -15,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Mixed Metal Night
 DTSTART;TZID=America/New_York:20260815T190000
 DTEND;TZID=America/New_York:20260815T230000
-DTSTAMP:20260810T104006Z
+DTSTAMP:20260811T093425Z
 UID:mixed-metal-night@newhampshireunderground.org
 DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Trading Tombstones
 END:VEVENT
@@ -23,7 +23,7 @@ BEGIN:VEVENT
 SUMMARY:The Mr. Z Tour
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T220000
-DTSTAMP:20260810T104006Z
+DTSTAMP:20260811T093425Z
 UID:the-mr-z-tour@newhampshireunderground.org
 DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, LEY\, 6 
  MINDS COMBINED\, BLUNTSWORTH
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Shoegaze Night
 DTSTART;TZID=America/New_York:20260822T190000
 DTEND;TZID=America/New_York:20260822T230000
-DTSTAMP:20260810T104006Z
+DTSTAMP:20260811T093425Z
 UID:shoegaze-night@newhampshireunderground.org
 DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
  ons
