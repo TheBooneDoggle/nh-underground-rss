@@ -3,19 +3,10 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:Music Listening Party
-DTSTART;TZID=America/New_York:20260811T190000
-DTEND;TZID=America/New_York:20260811T230000
-DTSTAMP:20260811T093425Z
-UID:music-listening-party@newhampshireunderground.org
-DESCRIPTION:Listen to the latest new music coming to Terminus Underground!
-  Drink Coffee\, Kava\, or BYOB 21+
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mixed Metal Night
 DTSTART;TZID=America/New_York:20260815T190000
 DTEND;TZID=America/New_York:20260815T230000
-DTSTAMP:20260811T093425Z
+DTSTAMP:20260813T094640Z
 UID:mixed-metal-night@newhampshireunderground.org
 DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Trading Tombstones
 END:VEVENT
@@ -23,18 +14,27 @@ BEGIN:VEVENT
 SUMMARY:The Mr. Z Tour
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T220000
-DTSTAMP:20260811T093425Z
+DTSTAMP:20260813T094640Z
 UID:the-mr-z-tour@newhampshireunderground.org
-DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, LEY\, 6 
- MINDS COMBINED\, BLUNTSWORTH
+DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, HEJUNE\,
+  6 MINDS COMBINED\, BLUNTSWORTH
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Shoegaze Night
 DTSTART;TZID=America/New_York:20260822T190000
 DTEND;TZID=America/New_York:20260822T230000
-DTSTAMP:20260811T093425Z
+DTSTAMP:20260813T094640Z
 UID:shoegaze-night@newhampshireunderground.org
 DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
  ons
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ladies of Rock
+DTSTART;TZID=America/New_York:20260912T190000
+DTEND;TZID=America/New_York:20260912T230000
+DTSTAMP:20260813T094640Z
+UID:ladies-of-rock@newhampshireunderground.org
+DESCRIPTION:Live Music with Haunting Titans\, Wired for Sound\, Tiger Witc
+ h\, and Ashborne\, and visual performance by Air Flow Projection Art
 END:VEVENT
 END:VCALENDAR
