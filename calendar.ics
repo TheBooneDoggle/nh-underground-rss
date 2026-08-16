@@ -3,18 +3,10 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:Mixed Metal Night
-DTSTART;TZID=America/New_York:20260815T190000
-DTEND;TZID=America/New_York:20260815T230000
-DTSTAMP:20260815T071835Z
-UID:mixed-metal-night@newhampshireunderground.org
-DESCRIPTION:Archdruid\, Opus Decay\, Ugly Sisters\, and Trading Tombstones
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Mr. Z Tour
 DTSTART;TZID=America/New_York:20260816T180000
 DTEND;TZID=America/New_York:20260816T220000
-DTSTAMP:20260815T071835Z
+DTSTAMP:20260816T074418Z
 UID:the-mr-z-tour@newhampshireunderground.org
 DESCRIPTION:Rock Hop\, R&B and Alternative Hip Hop with ZYG 808\, HEJUNE\,
   6 MINDS COMBINED\, BLUNTSWORTH
@@ -23,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Shoegaze Night
 DTSTART;TZID=America/New_York:20260822T190000
 DTEND;TZID=America/New_York:20260822T230000
-DTSTAMP:20260815T071835Z
+DTSTAMP:20260816T074418Z
 UID:shoegaze-night@newhampshireunderground.org
 DESCRIPTION:Cold Signal Fires\, The Forest Room\, Thoughtsick\, South Comm
  ons
@@ -32,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:Ladies of Rock
 DTSTART;TZID=America/New_York:20260912T190000
 DTEND;TZID=America/New_York:20260912T230000
-DTSTAMP:20260815T071835Z
+DTSTAMP:20260816T074418Z
 UID:ladies-of-rock@newhampshireunderground.org
 DESCRIPTION:Live Music with Haunting Titans\, Wired for Sound\, Tiger Witc
  h\, and Ashborne\, and visual performance by Air Flow Projection Art
@@ -41,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Faces of Doom
 DTSTART;TZID=America/New_York:20260918T190000
 DTEND;TZID=America/New_York:20260918T230000
-DTSTAMP:20260815T071835Z
+DTSTAMP:20260816T074418Z
 UID:faces-of-doom@newhampshireunderground.org
 DESCRIPTION:Stoner Rock and Doom Metal with Lizzy\, Dust Prophet\, and Lav
  a Mama!
