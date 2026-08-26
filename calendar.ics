@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Ladies of Rock
 DTSTART;TZID=America/New_York:20260912T190000
 DTEND;TZID=America/New_York:20260912T230000
-DTSTAMP:20260825T063757Z
+DTSTAMP:20260826T063929Z
 UID:ladies-of-rock@newhampshireunderground.org
 DESCRIPTION:Live Music with Haunting Titans\, Wired for Sound\, Tiger Witc
  h\, and Ashborne\, and visual performance by Air Flow Projection Art
@@ -15,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Faces of Doom
 DTSTART;TZID=America/New_York:20260918T190000
 DTEND;TZID=America/New_York:20260918T230000
-DTSTAMP:20260825T063757Z
+DTSTAMP:20260826T063929Z
 UID:faces-of-doom@newhampshireunderground.org
 DESCRIPTION:Stoner Rock and Doom Metal with Lizzy\, Dust Prophet\, Vale En
  d\, and Lava Mama!
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:Leviathan of Sound
 DTSTART;TZID=America/New_York:20260919T190000
 DTEND;TZID=America/New_York:20260919T230000
-DTSTAMP:20260825T063757Z
+DTSTAMP:20260826T063929Z
 UID:leviathan-of-sound@newhampshireunderground.org
 DESCRIPTION:Void the Nobody\, Trading Tombstones\, Dank Sinatra
 END:VEVENT
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Benefit for Mental Health
 DTSTART;TZID=America/New_York:20260926T190000
 DTEND;TZID=America/New_York:20260926T230000
-DTSTAMP:20260825T063757Z
+DTSTAMP:20260826T063929Z
 UID:benefit-for-mental-health@newhampshireunderground.org
 DESCRIPTION:with Phantasm\, Witchspire\, Graboid\, Lobotomobile\, and Piss
   in Pub
