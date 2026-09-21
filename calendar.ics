@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Benefit for Mental Health
 DTSTART;TZID=America/New_York:20260926T190000
 DTEND;TZID=America/New_York:20260926T230000
-DTSTAMP:20260920T103015Z
+DTSTAMP:20260921T114851Z
 UID:benefit-for-mental-health@newhampshireunderground.org
 DESCRIPTION:with Phantasm\, Witchspire\, Graboid\, Lobotomobile\, and Piss
   in Pub
@@ -15,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:New England Punk Rock
 DTSTART;TZID=America/New_York:20261010T200000
 DTEND;TZID=America/New_York:20261011T000000
-DTSTAMP:20260920T103015Z
+DTSTAMP:20260921T114851Z
 UID:new-england-punk-rock@newhampshireunderground.org
 DESCRIPTION:Magic Thinking Ape\, Sick Dude Hell Yeah!\, On What You're On
  \, Aaron & The Argonauts
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:Fresh New England Punk & Indie
 DTSTART;TZID=America/New_York:20261016T200000
 DTEND;TZID=America/New_York:20261017T000000
-DTSTAMP:20260920T103015Z
+DTSTAMP:20260921T114851Z
 UID:fresh-new-england-punk-indie@newhampshireunderground.org
 DESCRIPTION:Guns of Brighton\, Terminal Stereo\, Vauli\, and Complete Utte
  r Opposite
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:This is 50
 DTSTART;TZID=America/New_York:20261017T200000
 DTEND;TZID=America/New_York:20261018T000000
-DTSTAMP:20260920T103015Z
+DTSTAMP:20260921T114851Z
 UID:this-is-50@newhampshireunderground.org
 DESCRIPTION:Terminus Underground Founder\, Eleanor Luna's 50th birthday wi
  th Dead Harrison\, Swarm of Eyes\, Konseptikor\, Hemlok\, and Air Flow Pro
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Ghost Stories
 DTSTART;TZID=America/New_York:20261023T190000
 DTEND;TZID=America/New_York:20261023T230000
-DTSTAMP:20260920T103015Z
+DTSTAMP:20260921T114851Z
 UID:ghost-stories@newhampshireunderground.org
 DESCRIPTION:Understudy Records Hip Hop Showcase
 END:VEVENT
