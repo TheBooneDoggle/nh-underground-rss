@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:New England Punk Rock
 DTSTART;TZID=America/New_York:20261016T200000
 DTEND;TZID=America/New_York:20261017T000000
-DTSTAMP:20261011T115949Z
+DTSTAMP:20261012T141442Z
 UID:new-england-punk-rock-1@newhampshireunderground.org
 DESCRIPTION:Guns of Brighton\, Terminal Stereo\, Vauli\, and Complete Utte
  r Opposite
@@ -15,7 +15,7 @@ BEGIN:VEVENT
 SUMMARY:Decades of Doom
 DTSTART;TZID=America/New_York:20261017T200000
 DTEND;TZID=America/New_York:20261018T000000
-DTSTAMP:20261011T115949Z
+DTSTAMP:20261012T141442Z
 UID:decades-of-doom@newhampshireunderground.org
 DESCRIPTION:Celebrate Eleanor Luna's 50th birthday with Dead Harrison\, Sw
  arm of Eyes\, Konseptikor\, Hemlok\, and Air Flow Projection Arts
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 SUMMARY:Ghost Stories
 DTSTART;TZID=America/New_York:20261023T190000
 DTEND;TZID=America/New_York:20261023T230000
-DTSTAMP:20261011T115949Z
+DTSTAMP:20261012T141442Z
 UID:ghost-stories@newhampshireunderground.org
 DESCRIPTION:Understudy Records Hip Hop Showcase
 END:VEVENT
