@@ -3,27 +3,10 @@ VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
 BEGIN:VEVENT
-SUMMARY:New England Punk Rock
-DTSTART;TZID=America/New_York:20261016T190000
-DTEND;TZID=America/New_York:20261016T230000
-DTSTAMP:20261017T100249Z
-UID:new-england-punk-rock-1@newhampshireunderground.org
-DESCRIPTION:Vauli\, Terminal Stereo\, and Complete Utter Opposite
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Decades of Doom
-DTSTART;TZID=America/New_York:20261017T200000
-DTEND;TZID=America/New_York:20261018T000000
-DTSTAMP:20261017T100249Z
-UID:decades-of-doom@newhampshireunderground.org
-DESCRIPTION:Celebrate Eleanor Luna's 50th birthday with Dead Harrison\, Sw
- arm of Eyes\, Konseptikor\, and Air Flow Projection Arts
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ghost Stories
 DTSTART;TZID=America/New_York:20261023T190000
 DTEND;TZID=America/New_York:20261023T230000
-DTSTAMP:20261017T100249Z
+DTSTAMP:20261018T101628Z
 UID:ghost-stories@newhampshireunderground.org
 DESCRIPTION:Understudy Records Hip Hop Showcase
 END:VEVENT
