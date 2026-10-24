@@ -2,12 +2,4 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//New Hampshire Underground Shows//Calendar//EN
 X-WR-CALNAME:Terminus Underground Events
-BEGIN:VEVENT
-SUMMARY:Ghost Stories
-DTSTART;TZID=America/New_York:20261023T190000
-DTEND;TZID=America/New_York:20261023T230000
-DTSTAMP:20261023T105514Z
-UID:ghost-stories@newhampshireunderground.org
-DESCRIPTION:Understudy Records Hip Hop Showcase
-END:VEVENT
 END:VCALENDAR
