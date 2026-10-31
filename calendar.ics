@@ -6,15 +6,23 @@ BEGIN:VEVENT
 SUMMARY:Lauren Devlyn Art
 DTSTART;TZID=America/New_York:20261101T150000
 DTEND;TZID=America/New_York:20261101T190000
-DTSTAMP:20261030T120054Z
+DTSTAMP:20261031T113608Z
 UID:lauren-devlyn-art@newhampshireunderground.org
 DESCRIPTION:Spooky Little Art Show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Danse Macabre
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T230000
+DTSTAMP:20261031T113608Z
+UID:danse-macabre@newhampshireunderground.org
+DESCRIPTION:Gothic Dance Night
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Know Your Values Hip Hop Exhibition 2026
 DTSTART;TZID=America/New_York:20261113T190000
 DTEND;TZID=America/New_York:20261113T230000
-DTSTAMP:20261030T120054Z
+DTSTAMP:20261031T113608Z
 UID:know-your-values-hip-hop-exhibition-2026@newhampshireunderground.org
 DESCRIPTION:The most dope underground extravaganza Feat. Bluntsworth\, Cod
  y Pope\, SnottayNose\, Marc G.\, and 6 Minds Combined\, hosted by DJ Bonus
@@ -23,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:Hard Rock Magic
 DTSTART;TZID=America/New_York:20261114T190000
 DTEND;TZID=America/New_York:20261114T230000
-DTSTAMP:20261030T120054Z
+DTSTAMP:20261031T113608Z
 UID:hard-rock-magic@newhampshireunderground.org
 DESCRIPTION:Renegade Cartel\, Project H\, Diamond Edge
 END:VEVENT
@@ -31,8 +39,16 @@ BEGIN:VEVENT
 SUMMARY:Dark Night of Metal
 DTSTART;TZID=America/New_York:20261127T190000
 DTEND;TZID=America/New_York:20261127T230000
-DTSTAMP:20261030T120054Z
+DTSTAMP:20261031T113608Z
 UID:dark-night-of-metal@newhampshireunderground.org
 DESCRIPTION:Arctodus\, No More Sun\, Exosphere\, and Terminus
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Last Show of 2026
+DTSTART;TZID=America/New_York:20261128T190000
+DTEND;TZID=America/New_York:20261128T230000
+DTSTAMP:20261031T113608Z
+UID:last-show-of-2026@newhampshireunderground.org
+DESCRIPTION:Superchild\, Long Autumn\, and Whiskey Cherrybomb
 END:VEVENT
 END:VCALENDAR
