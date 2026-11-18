@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Dark Night of Metal
 DTSTART;TZID=America/New_York:20261127T190000
 DTEND;TZID=America/New_York:20261127T230000
-DTSTAMP:20261117T152440Z
+DTSTAMP:20261118T145848Z
 UID:dark-night-of-metal@newhampshireunderground.org
 DESCRIPTION:Arctodus\, No More Sun\, Exosphere\, and Terminus
 END:VEVENT
@@ -14,7 +14,7 @@ BEGIN:VEVENT
 SUMMARY:Last Show of 2026
 DTSTART;TZID=America/New_York:20261128T190000
 DTEND;TZID=America/New_York:20261128T230000
-DTSTAMP:20261117T152440Z
+DTSTAMP:20261118T145848Z
 UID:last-show-of-2026@newhampshireunderground.org
 DESCRIPTION:Superchild\, Long Autumn\, and Whiskey Cherrybomb
 END:VEVENT
