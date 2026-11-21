@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Dark Night of Metal
 DTSTART;TZID=America/New_York:20261127T190000
 DTEND;TZID=America/New_York:20261127T230000
-DTSTAMP:20261120T144755Z
+DTSTAMP:20261121T140357Z
 UID:dark-night-of-metal@newhampshireunderground.org
 DESCRIPTION:Arctodus\, No More Sun\, Exosphere\, and Terminus
 END:VEVENT
@@ -14,7 +14,7 @@ BEGIN:VEVENT
 SUMMARY:Last Show of 2026
 DTSTART;TZID=America/New_York:20261128T190000
 DTEND;TZID=America/New_York:20261128T230000
-DTSTAMP:20261120T144755Z
+DTSTAMP:20261121T140357Z
 UID:last-show-of-2026@newhampshireunderground.org
 DESCRIPTION:Superchild\, Long Autumn\, and Whiskey Cherrybomb
 END:VEVENT
@@ -22,7 +22,7 @@ BEGIN:VEVENT
 SUMMARY:Noir Nachtmarkt
 DTSTART;TZID=America/New_York:20261206T160000
 DTEND;TZID=America/New_York:20261206T200000
-DTSTAMP:20261120T144755Z
+DTSTAMP:20261121T140357Z
 UID:noir-nachtmarkt@newhampshireunderground.org
 DESCRIPTION:Dark Holiday Arts Market
 END:VEVENT
@@ -30,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:Holiday Horror & Chill
 DTSTART;TZID=America/New_York:20261213T150000
 DTEND;TZID=America/New_York:20261213T190000
-DTSTAMP:20261120T144755Z
+DTSTAMP:20261121T140357Z
 UID:holiday-horror-chill@newhampshireunderground.org
 DESCRIPTION:Double Feature Holiday Horror Movie Night
 END:VEVENT
